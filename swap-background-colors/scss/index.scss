@@ -1,0 +1,57 @@
+body{
+    background-color: #141414;
+    .js-m-wrapper{
+        height: 100dvh;
+        width: 100dvw;
+        .js-m-inner{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            h1, h2{
+                color: #ffffff;
+                margin: 70px 0; 
+                font-family: "Roboto", arial;
+                font-weight: 300;
+                font-style: normal;
+                letter-spacing: 5px;
+                mix-blend-mode: difference;
+                @media only screen and (max-width: 1200px) {
+                    text-align: center;
+                }
+            }
+            .js-m-main{
+                display: flex;
+                align-items: center;
+                justify-items: center;
+                gap: 10px;
+                flex-wrap: wrap;
+                    .button {
+                        height: 10vh;
+                        width: 10vh;
+                        border: 1px solid black;
+                        border-radius: 50%;
+                    }
+    
+                    #black {
+                        border: 1px solid white;
+                        background-color: black;
+                    }
+    
+                    #white {
+                        background-color: white;
+                    }
+    
+                    #blue {
+                        background-color: blue;
+                    }
+    
+                    #yellow {
+                        background-color: yellow;
+                    }
+            }
+        }
+    }
+}
